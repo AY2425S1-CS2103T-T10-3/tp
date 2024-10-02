@@ -13,9 +13,8 @@ import seedu.address.model.person.Remark;
 
 public class RemarkCommandParserTest {
 
-    private RemarkCommandParser parser = new RemarkCommandParser();
     private static final String SAMPLE_REMARK = "Likes aardvarks.";
-
+    private RemarkCommandParser parser = new RemarkCommandParser();
     @Test
     public void parse_validArgs_returnsRemarkCommand() {
         String userInput = INDEX_FIRST_PERSON.getOneBased() + " " + PREFIX_REMARK + SAMPLE_REMARK;

@@ -22,7 +22,7 @@ import seedu.address.testutil.PersonBuilder;
 
 public class RemarkCommandTest {
 
-    private final static String SAMPLE_REMARK = "Likes aardvarks.";
+    private static final String SAMPLE_REMARK = "Likes aardvarks.";
     private final Model model = new ModelManager(getTypicalAddressBook(), new UserPrefs());
 
     @Test
